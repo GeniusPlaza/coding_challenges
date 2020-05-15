@@ -45,9 +45,6 @@ class LoginView extends React.Component {
     }
   };
 
-//<Text style={styles.subTitle}>Username</Text>
-//<Text style={styles.subTitle}>Password</Text>
-
   render() {
     return (
       <View style={styles.container}>
@@ -92,7 +89,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#ddd'
   },
   boxContainer:{
-    //flex: 1,
     backgroundColor: '#fff',
     height: 270,
     padding: 30
