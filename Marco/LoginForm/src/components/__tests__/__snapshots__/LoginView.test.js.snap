@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`All LoginView Tests renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ddd",
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#777",
+        "fontSize": 40,
+        "marginBottom": 100,
+        "marginTop": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    Login
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "height": 270,
+        "padding": 30,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="username"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "borderColor": "black",
+          "borderWidth": 1,
+          "fontSize": 20,
+          "marginBottom": 20,
+          "padding": 10,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="password"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "borderColor": "black",
+          "borderWidth": 1,
+          "fontSize": 20,
+          "marginBottom": 20,
+          "padding": 10,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+    <View
+      style={
+        Object {
+          "borderColor": "black",
+          "marginLeft": 30,
+          "marginRight": 30,
+          "marginTop": 20,
+        }
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={Object {}}
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#007AFF",
+                  "fontSize": 18,
+                  "margin": 8,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Login
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
